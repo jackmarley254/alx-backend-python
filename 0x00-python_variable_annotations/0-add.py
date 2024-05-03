@@ -3,10 +3,5 @@
 
 
 def add(a: float, b: float) -> float:
-	""" Add two integers together."""
-	
-	return a + b
-
-#print(add(1.11, 2.22) == 1.11 + 2.22)
-#print(add.__annotations__)
-
+    """ Add two integers together."""
+    return a + b
