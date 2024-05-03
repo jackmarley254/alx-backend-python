@@ -4,6 +4,6 @@ def add(a: float, b: float) -> float:
     sum: float = a+b
     return sum
 
-print(add(1.11, 2.22) == 1.11 + 2.22)
-print(add.__annotations__)
+#print(add(1.11, 2.22) == 1.11 + 2.22)
+#print(add.__annotations__)
 
