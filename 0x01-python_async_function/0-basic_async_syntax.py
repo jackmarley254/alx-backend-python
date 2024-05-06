@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""
-This is a coroutine taking optional argument and uses random
-module to generate a random delay.
-"""
+"""This is a coroutine that  uses random to delay some time"""
 import asyncio
 import random
 
