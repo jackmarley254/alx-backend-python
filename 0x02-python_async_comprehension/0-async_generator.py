@@ -5,7 +5,7 @@ import random
 from typing import Generator
 
 
-async def async_generator(): -> Generator[float, None, None]:
+async def async_generator() -> Generator[float, None, None]:
     """
     async_generator - function to loop 10 times
     Arguments:
@@ -13,6 +13,6 @@ async def async_generator(): -> Generator[float, None, None]:
     Returns:
         nothing
     """
-    for i in range(10)
+    for i in range(10):
         await asyncio.sleep(1)
-        yield random.randit(0, 10)
+        yield random.uniform(0, 10)
